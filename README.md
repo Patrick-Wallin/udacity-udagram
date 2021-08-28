@@ -134,6 +134,7 @@ It will run the web application at http://localhost:4200.  Please go to the brow
         - Back-End Install: It will update the dependencies of the back-end
         - Front-End Build: It will build the code and produce javascript files into folder called WWW.
         - Back-End Build: It will build the code and produce javascript files into the folder called WWW.
+        - Back-End Deploy: It will deploy the zip file to EB.
         - Front-End Deploy: It will deploy the WWW code into S3 as a website hosting.
         
 

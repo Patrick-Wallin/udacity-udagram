@@ -1,1 +1,1 @@
-eb deploy
+eb.exe deploy
