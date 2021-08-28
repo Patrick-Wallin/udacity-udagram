@@ -1,1 +1,1 @@
-eb.exe deploy
+eb.exe deploy --profile default
