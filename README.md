@@ -74,6 +74,7 @@ This is a cloud application developed alongside the Full Stack JavaScript Develo
 * [General Info](#general-information)
 * [Technologies](#technologies)
 * [Install dependencies](#install-dependencies)
+* [Set up environment](#set-up-environment)
 * [Start Server API](#start-server-api)
 * [Start FrontEnd](#start-frontend)
 * [CircleCI Status Badges](#circleci-status-badges)
@@ -84,6 +85,7 @@ This is a cloud application developed alongside the Full Stack JavaScript Develo
 Patrick would gain his experience deploying the Udagram app that developed by Udacity while learning the following different things:
 - AWS Console including RDS, EB, S3
 - AWS CLI S3
+- EB CLI
 - CircleCI
 - Set up on local first to see if it works okay before deploying it to AWS
 
@@ -109,6 +111,20 @@ cd ..
 cd udagram-frontend
 npm install
 ```
+## Set up environment
+Create '.env' file on the root of udagram and enter the following based on what you have set up on RDS and EB:
+- POSTGRES_USERNAME=`username`
+- POSTGRES_PASSWORD=`password`
+- POSTGRES_DB=`database name`
+- POSTGRES_PORT=`port number`
+- POSTGRES_HOST=`EB address`
+- AWS_REGION=`region`
+- AWS_PROFILE=`profile name`
+- AWS_BUCKET=`s3 bucket name`
+- URL=
+- JWT_SECRET=`secret name - any`
+- AWS_ACCESS_KEY=`IAM access key`
+- AWS_SECRET_KEY=`IAM secret key`
 
 ## Start server
 Open your terminal and go to the root of the directory of this project.

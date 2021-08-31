@@ -29,6 +29,17 @@ import { V0_FEED_MODELS, V0_USER_MODELS } from "./controllers/v0/model.index";
 
   app.use(bodyParser.json());
 
+  var corsOptions = {
+    origin: ['https://s3.amazonaws.com'],
+    credentials: true
+  }
+
+  const allowedOrigins = ['https://localhost:4200'];
+
+  const options: cors.CorsOptions = {
+    origin: allowedOrigins
+  };
+
   app.use(cors());
 
   app.use("/api/v0/", IndexRouter);
