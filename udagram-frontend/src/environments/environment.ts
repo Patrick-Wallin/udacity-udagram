@@ -8,6 +8,7 @@ export const environment = {
   apiHost: "http://udacityudagramapp-env-1.eba-qcqcvppp.us-west-1.elasticbeanstalk.com/api/v0",
 };
 
+//   apiHost: "http://localhost:8080/api/v0",
 // apiHost: "http://udacityudagramapp-env.eba-qcqcvppp.us-west-1.elasticbeanstalk.com/api/v0",
 /*
  * For easier debugging in development mode, you can import the following file
